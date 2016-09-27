@@ -2,7 +2,7 @@ import sbt.Keys._
 import sbt._
 
 object Build extends sbt.Build {  
-  val pico_event                = "org.pico"        %%  "pico-event"                % "0.2.1-27-b6d6e02"
+  val pico_event                = "org.pico"        %%  "pico-event"                % "2.0.1"
 
   val specs2_core               = "org.specs2"      %%  "specs2-core"               % "3.7.2"
   val rxscala                   = "io.reactivex"    %%  "rxscala"                   % "0.26.2"
