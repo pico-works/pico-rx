@@ -21,6 +21,8 @@ class SourceSpec extends Specification {
       bus.dispose()
       bus.publish(4)
       result.value must_=== List(2)
+      result.close()
+      ok
     }
 
     "have map operation" in {
